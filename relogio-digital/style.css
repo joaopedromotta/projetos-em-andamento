@@ -1,0 +1,22 @@
+:root {
+    --fonte-principal: "Orbitron", sans-serif;
+    --degrade: linear-gradient(170deg,rgba(0, 0, 0, 1) 0%, rgba(0, 0, 51, 1) 100%);
+}
+
+body {
+    font-family: var(--fonte-principal);
+    background: var(--degrade) no-repeat;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    border: 3px solid red;
+    border-radius: 16px;
+    padding: 25px;
+    font-size: 50px;
+    color: white;
+}
